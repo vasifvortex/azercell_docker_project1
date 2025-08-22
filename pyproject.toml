@@ -1,0 +1,7 @@
+[project]
+name = "date-server"
+version = "0.1.0"
+description = "A simple Flask app that returns the current time and EVEN/ODD seconds."
+dependencies = [
+    "flask>=3.1.2",
+]

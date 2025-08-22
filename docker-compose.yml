@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  date-server:
+    build: .
+    container_name: date-server
+    ports:
+      - "8080:5000"
+    restart: always
